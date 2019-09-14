@@ -9,7 +9,7 @@ def generate_products(num=30):
     products = []
     n = 0
     while n < num:
-        P = Product(name=str(sample(adj, 1)+sample(noun, 1))
+        P = Product(name=str(sample(adj, 1)+sample(noun, 1)),
                     price=randint(5, 100),
                     weight=randint(5, 100),
                     flammability=uniform(0.0, 2.5),

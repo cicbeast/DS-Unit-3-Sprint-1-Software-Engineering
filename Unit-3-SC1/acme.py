@@ -19,22 +19,22 @@ class Product():
         to calculate how 'stealable' an product is'''
         q = self.price / self.weight
         if q < 0.5:
-            print('Not so stealable...')
+            return('Not so stealable...')
         elif 0.5 <= q < 1:
-            print('Kinda Stealable.')
+            return('Kinda Stealable.')
         else:
-            print('Very Stealable')
+            return('Very Stealable!')
 
     def explode(self):
         '''Uses the product of flammability & weight
             to calculate likelyhood of explosion'''
         p = self.flammability * self.weight
         if p < 10:
-            print('...fizzle.')
+            return('...fizzle.')
         elif 10 <= p < 50:
-            print('...boom!')
+            return('...boom!')
         else:
-            print('...BABOOM!!')
+            return('...BABOOM!!')
 
 
 class BoxingGlove(Product):
@@ -55,8 +55,8 @@ class BoxingGlove(Product):
 
     def punch(self):
         if self.weight < 5:
-            print('That Tickles.')
+            return('That Tickles.')
         elif 5 <= self.weight < 15:
-            print('Hey that hurt!')
+            return('Hey that hurt!')
         else:
-            print('OUCH!')
+            return('OUCH!')
