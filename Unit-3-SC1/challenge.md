@@ -261,7 +261,7 @@ career here, you'll have to answer the following:
 
 -What, in your opinion, is an important part of code reviews? That is, what is something you pay attention to when you review code, and that you appreciate when others do the same for your code?
 
---I think that comments and doc strings are the most important part of code reviews. These make reviewing the actual substance of the code much easier, as I know what the code was trying to accomplish, and I can look at each line with that in mind. They also serve to separate the different sections of code nicely
+--I think that making sure that comments and doc strings are present, concise & descriptivethe most important part of code review. These make reviewing the actual substance of the code much easier, as I know what the code was trying to accomplish. With that in mind I can look at each block of code for function as well as form. They also serve to separate the different sections of code nicely
 
 -We have an awful lot of computers here, and it gets pretty confusing with slightly different things running on all of them. How could containers help us improve this situation?
 
